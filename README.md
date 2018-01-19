@@ -67,6 +67,16 @@ $ git push origin master
 	Hopefully, you can see how a PHP program can be passed a specific value and in turn it will return data specific to that value. i.e.  we request data for a particular artist id and we get data for that artist id.  This is done alot in Ajax programming. 
 
 
+1.	Commit these changes to your repository by using the following git bash commands:
+
+	```
+	$ git status
+	$ git add .
+	$ git commit -m "added artist_id to table"
+	$ git push origin master
+
+	```
+
 ## Part 3
 
 
