@@ -50,7 +50,7 @@ $ git push origin master
 
 ## Part 2
 
-1.	Run the PHP program [albums.php](http://localhost/ajax-ex1/albums.php?artist_id=1].  Notice how it is passed an argument called ``artist_id`` and a value - this returns the album names for artist id 1.  In the address bar of your browser change the value of ``artist_id`` to 2 or 3 or 4 to see albums for other artists.
+1.	Run the PHP program [albums.php](http://localhost/ajax-ex1/albums.php?artist_id=1).  Notice how it is passed an argument called ``artist_id`` and a value - this returns the album names for artist id 1.  In the address bar of your browser change the value of ``artist_id`` to 2 or 3 or 4 to see albums for other artists.
 
 1.	Provide the missing code in ``albums.js`` to display the output shown below:
 
