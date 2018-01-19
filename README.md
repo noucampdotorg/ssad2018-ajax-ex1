@@ -60,10 +60,11 @@ $ git push origin master
 
 	```
 	xmlhttp.open("GET", "albums.php?artist_id=2", true);  
-
 	```
 
-	Hopefully, you can see how a PHP program can be passed a specific value and in turn it will return data specific to that value. i.e.  we request data for a particular artist id and we get data for that artist id.  This is done alot in Ajax programming.
+	Examine the program ``albums.php`` carefully.  Particularly, lines 4 & 8.
+
+	Hopefully, you can see how a PHP program can be passed a specific value and in turn it will return data specific to that value. i.e.  we request data for a particular artist id and we get data for that artist id.  This is done alot in Ajax programming. 
 
 
 ## Part 3
