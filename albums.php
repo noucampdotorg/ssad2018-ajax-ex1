@@ -1,6 +1,6 @@
 <?php
 
-// This PHP program is expecting a album_id argument.  Uses it in MySQL query below.
+// This PHP program is expecting a artist_id argument.  Uses it in MySQL query below.
 $artist_id = $_GET['artist_id'];
 
 $connection = mysqli_connect("localhost","root","");
