@@ -30,8 +30,28 @@ $ git push origin master
 
 ## Part 1
 
-1.	Open the HTML file [artists.html](localhost://ajax-ex1/artists.html)
+1.	Open the HTML file [artists.html](http://localhost/ajax-ex1/artists.html)
 
 1.	Thoroughly examine the code in the HTML, JavaScript and PHP files.  Make sure you understand the code.
 
 1.	Update the code so the artist_id of each artist is shown as the first column in the HTML table shown.
+
+1.	Commit these changes to your repository by using the following git bash commands:
+
+	```
+	$ git status
+	$ git add .
+	$ git commit -m "added artist_id to table"
+	$ git push origin master
+
+	```
+
+
+
+## Part 2
+
+1.	Modify the ``albums.js`` and ``albums.php`` to display the output shown below:
+
+	![alt text](../images/albums_html.png "Albums")
+
+
