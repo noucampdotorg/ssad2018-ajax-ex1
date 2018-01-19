@@ -50,7 +50,7 @@ $ git push origin master
 
 ## Part 2
 
-1.	Modify the ``albums.js`` and ``albums.php`` to display the output shown below:
+1.	Modify the ``albums.js`` and ``albums.php`` files to display the output shown below:
 
 	![alt text](images/albums_html.png "Albums")
 
