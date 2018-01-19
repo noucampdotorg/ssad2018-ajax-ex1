@@ -56,4 +56,11 @@ $ git push origin master
 
 	![alt text](images/albums_html.png "Albums")
 
+1.	Modify line 15 in ``albums.js`` to get an Ajax request that gets album data for artist id 2 like this:
 
+	```
+	xmlhttp.open("GET", "albums.php?artist_id=2", true);  
+
+	```
+
+	
