@@ -72,7 +72,7 @@ $ git push origin master
 	```
 	$ git status
 	$ git add .
-	$ git commit -m "added artist_id to table"
+	$ git commit -m "displayed album table"
 	$ git push origin master
 
 	```
