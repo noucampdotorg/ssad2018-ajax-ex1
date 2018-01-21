@@ -159,3 +159,5 @@ Use the ``gaa2013`` database for these exercises.  We are going to eventually fi
 
 	```
 
+
+**If you need help just ask**
