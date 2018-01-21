@@ -26,7 +26,7 @@ function getAjaxData()
 	// xmlhttp.open("GET", "games.php?category="+category, true); 
 
 	// (4)
-	// category=document.getElementById('category').value;
+	// category=???
 	// xmlhttp.open("GET", "games.php?category="+category, true); 
 
 
