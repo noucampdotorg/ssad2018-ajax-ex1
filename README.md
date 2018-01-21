@@ -97,6 +97,8 @@ Use the ``gaa2013`` database for these exercises.  We are going to eventually fi
 
 1.	Run [games.html](http://localhost/ssad2018-ajax-ex1/games.html).  It shows data for all games.  Examine the code in ``games.html``, ``games.js`` and ``games.php``.  You MUST understand this fundamental code.  If you don't ask for help.
 
+1.	Update the code in ``games.js`` to show the score (goals and points) for each team.
+
 1.	We're going to update the code to filter games by *category*.  Follow these steps carefully.
 
 	In ``games.php`` comment out the code labeled (1) and uncomment the code labeled (2).  Lines 3-4 should now look like this:
