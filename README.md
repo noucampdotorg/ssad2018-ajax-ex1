@@ -14,7 +14,9 @@ $ git status
 
 ## Part 1
 
-1.	Open the HTML file [artists.html](http://localhost/ajax-ex1/artists.html)
+Use the ``music`` database for these exercises.
+
+1.	Open the HTML file [artists.html](http://localhost/ssad2018-ajax-ex1/artists.html)
 
 1.	Thoroughly examine the code in the HTML, JavaScript and PHP files.  Make sure you understand the code.
 
@@ -34,7 +36,7 @@ $ git status
 
 ## Part 2
 
-1.	Run the PHP program [albums.php](http://localhost/ajax-ex1/albums.php?artist_id=1).  Notice how it is passed an argument called ``artist_id`` and a value - this returns the album names for artist id 1.  In the address bar of your browser change the value of ``artist_id`` to 2 or 3 or 4 to see albums for other artists.
+1.	Run the PHP program [albums.php](http://localhost/ssad2018-ajax-ex1/albums.php?artist_id=1).  Notice how it is passed an argument called ``artist_id`` and a value - this returns the album names for artist id 1.  In the address bar of your browser change the value of ``artist_id`` to 2 or 3 or 4 to see albums for other artists.
 
 1.	Provide the missing code in the ``albums.js`` function ``showData()`` to display the output shown below:
 
@@ -74,7 +76,7 @@ $ git status
 
 	```
 
-	Clicking the button now should trigger the Ajax request.  Again, this is done alot in Ajax programming.
+	Clicking the button now should trigger the Ajax request.  Again, using events to trigger Ajax requests is done alot in Ajax programming.
 
 1.	Commit these changes to your remote repository by using the following Git Bash commands:
 
@@ -89,6 +91,40 @@ $ git status
 
 ## Part 3
 
+Use the ``gaa2013`` database for these exercises.  We are going to eventually filter gaa games by category.
 
+1.	Run the PHP program [games.php](http://localhost/ssad2018-ajax-ex1/games.php).  Notice how it returns all the game data (for now).  This is the data Ajax requests.
 
+1.	Run [games.html](http://localhost/ssad2018-ajax-ex1/games.html).  It shows data for all games.  Examine the code in ``games.html``, ``games.js`` and ``games.php``.  You MUST understand this fundamental code.  If you don't ask for help.
+
+We're going to update the code to filter by game category.  Follow the steps below carefully.
+
+1.	In ``games.php`` comment out the code labeled (1) and uncomment the code labeled (2).  Lines 3-4 should now look like this:
+
+	```php
+	// (2)
+	$category = $_GET['category'];
+	
+	```
+
+	and lines 11-17 should look like this:
+
+	```php
+	// (1)
+	// $result = mysqli_query($connection,"select * from games");
+
+	//OR
+
+	// (2)
+	$result = mysqli_query($connection,"select * from games where category = $category");
+
+	```
+
+	``games.php`` can now filter the games by category.  Try it by running it using this URL:[http://localhost/ssad2018-ajax-ex1/games.php?category=1](http://localhost/ssad2018-ajax-ex1/games.php?category=1)
+
+We'll update the JavaScript code to use this filtering.
+
+1.	In ``games.js`` comment out the code labeled (1) and uncomment the code labeled (2)
+
+	```javasri
 
