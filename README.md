@@ -1,12 +1,12 @@
 # SSAD 2018 - Ajax Exercise 1
 
-## Clone the Exercise Repository
+## Clone the Exercise Remote Repository
 
 ```
 $ cd /xampp/htdocs
 $ git clone <GitHubRepository_URL>
 $ cd ssad2018-ajax-ex1
-$ ls/dir
+$ ls or dir
 $ git status
 
 ```
@@ -20,12 +20,12 @@ $ git status
 
 1.	Update the code so the artist_id of each artist is shown as the first column in the HTML table shown.
 
-1.	Commit these changes to your repository by using the following git bash commands:
+1.	Commit these changes to your remote repository by using the following Git Bash commands:
 
 	```
 	$ git status
 	$ git add .
-	$ git commit -m "added artist_id to table"
+	$ git commit -m "Part 1"
 	$ git push origin master
 
 	```
@@ -51,15 +51,30 @@ $ git status
 	Hopefully, you can see how a PHP program can be passed a specific value and in turn it will return data specific to that value. i.e.  we request data for a particular artist id and we get data for that artist id.  This is done alot in Ajax programming. 
 
 
-1.	Commit these changes to your repository by using the following git bash commands:
+1.	Commit these changes to your remote repository by using the following Git Bash commands:
 
 	```
 	$ git status
 	$ git add .
-	$ git commit -m "displayed album table"
+	$ git commit -m "Part 2 - 3"
 	$ git push origin master
 
 	```
+
+1.	Uncomment the HTML button code from ``albums.html`` to reveal a button.  Refresh to see it.
+
+1.	Let's use the button to trigger the Ajax request.  Update the code in ``albums.js`` for the window onload event.  The code should look like this now:
+
+	```javascript
+	window.onload=function(){
+	document.getElementById('button').onclick=function(){
+		getAjaxData();
+	}
+}
+
+	```
+
+
 
 ## Part 3
 
