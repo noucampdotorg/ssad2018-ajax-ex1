@@ -67,8 +67,8 @@ $ git status
 
 	```javascript
 	window.onload=function(){
-	document.getElementById('button').onclick=function(){
-		getAjaxData();
+	   document.getElementById('button').onclick=function(){
+	      getAjaxData();
 	}
 }
 
