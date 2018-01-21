@@ -56,7 +56,7 @@ $ git status
 	```
 	$ git status
 	$ git add .
-	$ git commit -m "Part 2 - 3"
+	$ git commit -m "Part 2 - 1"
 	$ git push origin master
 
 	```
@@ -69,11 +69,22 @@ $ git status
 	window.onload=function(){
 	   document.getElementById('button').onclick=function(){
 	      getAjaxData();
+	   }
 	}
-}
 
 	```
 
+	Clicking the button now should trigger the Ajax request.  Again, this is done alot in Ajax programming.
+
+1.	Commit these changes to your remote repository by using the following Git Bash commands:
+
+	```git
+	$ git status
+	$ git add .
+	$ git commit -m "Part 2 - 2"
+	$ git push origin master
+
+	```
 
 
 ## Part 3
