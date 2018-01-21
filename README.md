@@ -97,9 +97,9 @@ Use the ``gaa2013`` database for these exercises.  We are going to eventually fi
 
 1.	Run [games.html](http://localhost/ssad2018-ajax-ex1/games.html).  It shows data for all games.  Examine the code in ``games.html``, ``games.js`` and ``games.php``.  You MUST understand this fundamental code.  If you don't ask for help.
 
-We're going to update the code to filter by game category.  Follow the steps below carefully.
+1.	We're going to update the code to filter games by *category*.  Follow these steps carefully.
 
-1.	In ``games.php`` comment out the code labeled (1) and uncomment the code labeled (2).  Lines 3-4 should now look like this:
+	In ``games.php`` comment out the code labeled (1) and uncomment the code labeled (2).  Lines 3-4 should now look like this:
 
 	```php
 	// (2)
@@ -122,9 +122,40 @@ We're going to update the code to filter by game category.  Follow the steps bel
 
 	``games.php`` can now filter the games by category.  Try it by running it using this URL:[http://localhost/ssad2018-ajax-ex1/games.php?category=1](http://localhost/ssad2018-ajax-ex1/games.php?category=1)
 
-We'll update the JavaScript code to use this filtering.
 
-1.	In ``games.js`` comment out the code labeled (1) and uncomment the code labeled (2)
 
-	```javasri
+1.	We'll update the JavaScript code to use this filtering. 
+
+	In ``games.js`` comment out the code labeled (1) and uncomment the code labeled (2).  Lines 18-22 should now look like this:
+
+	```javascript
+	// (1)
+	// xmlhttp.open("GET", "games.php", true);  
+
+	// (2)
+	xmlhttp.open("GET", "games.php?category=1", true);  
+
+	```
+
+	Above, we're requesting games in category 1 (Ulster).  
+
+	Run [games.html](http://localhost/ssad2018-ajax-ex1/games.html) again.  It should display the Ulster (1) category games.  Take time to examine and understand this code.
+
+
+1.	Next, in ``games.js`` comment out the code labeled (2) and uncomment the code labeled (3).  Run ``games.html`` again - you should see data from another category (Leinster).    
+
+	A variable is introduced to store the category value and is passed in the Ajax request.  
+
+1.	Finally, uncomment the dropdown box code in ``games.html``.  We'll use this dropdown to control the game data we want to filter.  You will need to add and uncomment code at the label (4) to implement this.
+
+
+1.	Commit these changes to your remote repository by using the following Git Bash commands:
+
+	```git
+	$ git status
+	$ git add .
+	$ git commit -m "Part 3"
+	$ git push origin master
+
+	```
 
