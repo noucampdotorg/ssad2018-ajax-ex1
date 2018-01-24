@@ -4,7 +4,7 @@
 
 ```
 $ cd /xampp/htdocs
-$ git clone <GitHubRepository_URL>
+$ git clone https://github.com/noucampdotorg/ssad2018-ajax-ex1.git
 $ cd ssad2018-ajax-ex1
 $ ls or dir
 $ git status
@@ -22,15 +22,16 @@ Use the ``music`` database for these exercises.
 
 1.	Update the code so the artist_id of each artist is shown as the first column in the HTML table shown.
 
-1.	Commit these changes to your remote repository by using the following Git Bash commands:
+..
+	1.	Commit these changes to your remote repository by using the following Git Bash commands:
 
-	```
-	$ git status
-	$ git add .
-	$ git commit -m "Part 1"
-	$ git push origin master
+		```
+		$ git status
+		$ git add .
+		$ git commit -m "Part 1"
+		$ git push origin master
 
-	```
+		```
 
 
 
