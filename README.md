@@ -22,16 +22,7 @@ Use the ``music`` database for these exercises.
 
 1.	Update the code so the artist_id of each artist is shown as the first column in the HTML table shown.
 
-..
-	1.	Commit these changes to your remote repository by using the following Git Bash commands:
 
-		```
-		$ git status
-		$ git add .
-		$ git commit -m "Part 1"
-		$ git push origin master
-
-		```
 
 
 
@@ -54,15 +45,7 @@ Use the ``music`` database for these exercises.
 	Hopefully, you can see how a PHP program can be passed a specific value and in turn it will return data specific to that value. i.e.  we request data for a particular artist id and we get data for that artist id.  This is done alot in Ajax programming. 
 
 
-1.	Commit these changes to your remote repository by using the following Git Bash commands:
 
-	```
-	$ git status
-	$ git add .
-	$ git commit -m "Part 2 - 1"
-	$ git push origin master
-
-	```
 
 1.	Uncomment the HTML button code from ``albums.html`` to reveal a button.  Refresh to see it.
 
@@ -81,13 +64,7 @@ Use the ``music`` database for these exercises.
 
 1.	Commit these changes to your remote repository by using the following Git Bash commands:
 
-	```git
-	$ git status
-	$ git add .
-	$ git commit -m "Part 2 - 2"
-	$ git push origin master
 
-	```
 
 
 ## Part 3
@@ -154,13 +131,7 @@ Use the ``gaa2013`` database for these exercises.  We are going to eventually fi
 
 1.	Commit these changes to your remote repository by using the following Git Bash commands:
 
-	```git
-	$ git status
-	$ git add .
-	$ git commit -m "Part 3"
-	$ git push origin master
 
-	```
 
 
 **If you need help just ask**
